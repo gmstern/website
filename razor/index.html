@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<title>Razor Bayview</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Unna&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+
+<body>
+
+<div class="bgimg w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p>
+        <img src = "razor_card-1.jpg"
+         alt = "Razor Logo" /></p>
+    <h1> Bayview's Neighborhood Barbershop </h1><br>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('services').style.display='block'" class="w3-button w3-black">services</button></p>
+    <p><button onclick="document.getElementById('about').style.display='block'" class="w3-button w3-black">about</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <h3 class="w3-xlarge">monday - saturday | work by appointment only • call (414) 482-0633 </h3>
+    <h4 class="w3-xlarge"><a href="https://goo.gl/maps/VqVVqffJ7v4AhLk56" target="_blank">2340 S. Kinnickinnic Ave. Bayview, WI 53207</a></h4><br>
+  </div>
+</div>
+
+<!-- Services Modal -->
+<div id="services" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('services').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Services</h1>
+    </div>
+    <div class="w3-container">
+      <h3>haircuts</h3>
+      <h3>beard trims</h3>
+      <h3>wet shaves </h4>
+      <h3>grey blending color service</h3><br>
+        <p><a href="https://www.yelp.com/biz/razor-milwaukee?osq=razor" target="_blank">View Customer Reviews on Yelp</a></p>
+        <p><a href="https://www.facebook.com/pages/category/Hair-Salon/Razor-Barbershop-244201132350112/" target="_blank">Follow Razor on Facebook</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- About Modal -->
+<div id="about" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('about').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>About Razor</h1>
+    </div>
+    <div class="w3-container">
+      <h4>Established in 2007, Razor is a contemporary men's barbershop that provides an upscale experience for an affordable price in a relaxed atmosphere. Locally owned and operated by barber, Anthony Leto, who boasts over 17 years of experience. Located right in the heart of Bayview's newly revitalized business sector, Razor offers the finest custom haircut and service for your dollar. Every individual recieves special attention which includes: consultation, shampoo with scalp massage, precision haircut or color, style, hot towel and straight-edge razor detailing. Come in and relax in a wide comfortable barber chair, watch cable television and enjoy a cold complimentary refreshment.
+      </h4>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
