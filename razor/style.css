@@ -1,10 +1,34 @@
-body,h1, h2, h3, h4, h5 {
+h1 {
   font-family: 'Unna', serif;
+  font-size: 3vw;
+  font-weight: 400;
+
+}
+
+h3 {
+ font-family: 'Unna', serif;
+ font-size: 2vw;
+ font-weight: 400;
+
+}
+
+h4 {
+ font-family: 'Unna', serif;
+ font-size: 2vw;
+ font-weight: 400;
+
+}
+
+h5 {
+ font-family: 'Unna', serif;
+ font-size: 2vw;
+ font-weight: 400;
 
 }
 
 body, p{
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2vw;
 
 }
 
@@ -19,6 +43,13 @@ body, html {
   background-position: center;
   background-size: cover;
 
+}
+
+@media screen and (max-width: 600px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 600px or smaller */
+    padding-top: 50px;
+  }
 }
 
 /* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
@@ -40,6 +71,9 @@ button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
 button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
 button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
 fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+.w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
 legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
 [type=checkbox],[type=radio]{padding:0}
 [type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
@@ -73,3 +107,13 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 .w3-button:hover{color:#000!important;background-color:#ccc!important}
 /* Colors */
 .w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
+.w3-text-white,.w3-hover-text-white:hover{color:#fff!important}
+.w3-border-black,.w3-hover-border-black:hover{border-color:#000!important}
+.w3-border-grey,.w3-hover-border-grey:hover,.w3-border-gray,.w3-hover-border-gray:hover{border-color:#9e9e9e!important}
+.w3-border-light-grey,.w3-hover-border-light-grey:hover,.w3-border-light-gray,.w3-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.w3-border-dark-grey,.w3-hover-border-dark-grey:hover,.w3-border-dark-gray,.w3-hover-border-dark-gray:hover{border-color:#616161!important}
+.w3-text-white,.w3-hover-text-white:hover{color:#fff!important}
+.w3-text-black,.w3-hover-text-black:hover{color:#000!important}
+.w3-text-grey,.w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover{color:#757575!important}
+.w3-text-light-grey,.w3-hover-text-light-grey:hover,.w3-text-light-gray,.w3-hover-text-light-gray:hover{color:#f1f1f1!important}
+.w3-text-dark-grey,.w3-hover-text-dark-grey:hover,.w3-text-dark-gray,.w3-hover-text-dark-gray:hover{color:#3a3a3a!important}
