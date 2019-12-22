@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<title>Razor Bay View</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Unna&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inria+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+
+<body>
+<div class="bgimg w3-text-white">
+  <div class="w3-display-right">
+    <p><img src = "razor_card-6.png" alt = "Razor Logo" / style="width:100%;"></p>
+  </div>
+
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('hours & location').style.display='block'" class="w3-button w3-black">hours & location</button></p>
+    <p><button onclick="document.getElementById('services').style.display='block'" class="w3-button w3-black">services</button></p>
+    <p><button onclick="document.getElementById('about').style.display='block'" class="w3-button w3-black">about</button></p>
+  </div>
+
+</div>
+
+<!-- Hours & Location Modal -->
+<div id="hours & location" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('hours & location').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Hours & Location</h1>
+    </div>
+    <div class="w3-container">
+      <h4>Open monday - saturday</h4>
+      <h4>work by appointment only | call (414) 482-0633</h4>
+      <h4><a href="https://goo.gl/maps/VqVVqffJ7v4AhLk56" target="_blank">Located at 2340 S. Kinnickinnic Ave. Bay View, WI 53207</a></h4><br>
+    </div>
+  </div>
+</div>
+
+<!-- Services Modal -->
+<div id="services" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('services').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Services</h1>
+    </div>
+    <div class="w3-container">
+      <h3>haircuts</h3>
+      <h3>beard trims</h3>
+      <h3>wet shaves </h3>
+      <h3>grey blending color service</h3>
+    </div>
+  </div>
+</div>
+
+<!-- About Modal -->
+<div id="about" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('about').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>About Razor Barbershop</h1>
+    </div>
+    <div class="w3-container">
+      <h4>Established in 2007, Razor is a contemporary men's barbershop that provides an upscale experience for an affordable price in a relaxed atmosphere. Locally owned and operated by barber, Anthony Leto, who boasts over 17 years of experience. Located right in the heart of Bay View's newly revitalized business sector, Razor offers the finest custom haircut and service for your dollar. Every individual receives special attention which includes: consultation, precision haircut or color, style, beard trim, hot towel and straight-edge razor detailing. Come in and relax in a wide comfortable barber chair, watch television and enjoy a cold complimentary refreshment.
+      </h4>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
