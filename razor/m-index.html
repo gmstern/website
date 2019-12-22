@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<title>Razor Bay View</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Inria+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style-m.css">
+
+<head>
+<body>
+
+<div class= "background">
+
+<div class="background header">
+  <p> <img src = "razor_card-1.jpg" alt = "Razor Logo" style="width: 100%;"> </p>
+  <h2> Bay View's Neighborhood Barbershop</h2>
+</div>
+
+<div class="background center">
+  <div class="transbox">
+    <h2> Monday - Saturday </h2>
+    <h2> work by appointment only | call (414) 482-0633 </h2>
+  </div>
+</div>
+
+<div class="transbox">
+  <div class="button-display" onclick="myFunction(this)">About Razor</div>
+  <div id="transbox-a" class="hidden" style="display: none;">
+      <p>Established in 2007, Razor is a contemporary men's barbershop that provides an upscale experience for an affordable price in a relaxed atmosphere. Locally owned and operated by barber, Anthony Leto, who boasts over 17 years of experience. Located right in the heart of Bay View's newly revitalized business sector, Razor offers the finest custom haircut and service for your dollar. Every individual receives special attention which includes: consultation, precision haircut or color, style, beard trim, hot towel and straight-edge razor detailing. Come in and relax in a wide comfortable barber chair, watch television and enjoy a cold complimentary refreshment.
+      </p>
+  </div>
+</div>
+
+  <div class="transbox">
+    <div class="button-display" onclick="myFunction(this)">Services</div>
+      <ul class="hidden" style="display: none;">
+        <li><p>haircuts</p></li>
+        <li><p>beard trims</p></li>
+        <li><p>wet shaves </p></li>
+        <li><p>grey blending color service</p></li><br>
+      </ul>
+  </div>
+
+    <script>
+      function myFunction(action) {
+        var x = action.parentNode.querySelector(".hidden")
+        // if currently hidden
+        if (x.style.display == "none") {
+          // display
+          x.style.display = "block";
+        } else {
+          // else hide
+          x.style.display = "none";
+        }
+      }
+    </script>
+
+  <div class="background footer">
+    <div class= "transbox"
+      <p><a href="https://goo.gl/maps/VqVVqffJ7v4AhLk56" target="_blank">Located at 2340 S. Kinnickinnic Ave. Bayview, WI 53207</a></p>
+      <p><a href="https://www.yelp.com/biz/razor-milwaukee?osq=razor" target="_blank">View Customer Reviews on Yelp</a></p>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
