@@ -3,18 +3,11 @@
   box-sizing: border-box;
 }
 
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: white;
-}
-
 .background {
   background-image: url('./photorazor.jpg');
-  min-height: 100%;
   background-position: center;
   background-size: cover;
+  height: 1000px;
 
 }
 
@@ -54,7 +47,6 @@ h2 {
 #transbox-a{
   margin: 30px;
   background-color: #ffffff;
-  border: 1px solid black;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
@@ -78,15 +70,6 @@ h2 {
   text-align: center;
 }
 
-/* Footer */
-.footer {
-  font-family:'Inria Serif', serif;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-  margin-top: 15px;
-}
-
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {
@@ -95,11 +78,4 @@ h2 {
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
 </style>
