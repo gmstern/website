@@ -34,6 +34,7 @@ h2 {
   margin: 30px;
   background-color: #ffffff;
   border: 1px solid black;
+  text-align: center;
   opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
@@ -84,7 +85,6 @@ h2 {
   padding: 20px;
   text-align: center;
   margin-top: 15px;
-  background-image: url('./background2white_raz.jpg');
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */

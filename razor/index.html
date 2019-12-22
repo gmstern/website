@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Unna&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inria+Serif&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
 
 <body>
@@ -15,20 +16,26 @@
   </div>
 
   <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('hours & location').style.display='block'" class="w3-button w3-black">hours & location</button></p>
     <p><button onclick="document.getElementById('services').style.display='block'" class="w3-button w3-black">services</button></p>
     <p><button onclick="document.getElementById('about').style.display='block'" class="w3-button w3-black">about</button></p>
   </div>
 
-  <div class="footer">
-    <div class="w3-display-bottomleft w3-container">
-      <div style="background-color: black; opacity: 0.8; padding: 5px; margin: 3px">
-        <p> Razor: Bay View's Neighborhood Barbershop </p>
-        <h4>monday - saturday | work by appointment only • call (414) 482-0633 </h4>
-        <h4><a href="https://goo.gl/maps/VqVVqffJ7v4AhLk56" target="_blank">2340 S. Kinnickinnic Ave. Bayview, WI 53207</a></h4><br>
-      </div>
+</div>
+
+<!-- Hours & Location Modal -->
+<div id="hours & location" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('hours & location').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Hours & Location</h1>
+    </div>
+    <div class="w3-container">
+      <h4>Open monday - saturday</h4>
+      <h4>work by appointment only | call (414) 482-0633</h4>
+      <h4><a href="https://goo.gl/maps/VqVVqffJ7v4AhLk56" target="_blank">Located at 2340 S. Kinnickinnic Ave. Bay View, WI 53207</a></h4><br>
     </div>
   </div>
-
 </div>
 
 <!-- Services Modal -->
@@ -42,9 +49,7 @@
       <h3>haircuts</h3>
       <h3>beard trims</h3>
       <h3>wet shaves </h3>
-      <h3>grey blending color service</h3><br>
-      <h3>Call (414) 482-0633 to schedule an appointment.</h3>
-        <p><a href="https://www.yelp.com/biz/razor-milwaukee?osq=razor" target="_blank">View Customer Reviews on Yelp</a></p>
+      <h3>grey blending color service</h3>
     </div>
   </div>
 </div>

@@ -26,6 +26,14 @@ h5 {
 
 }
 
+h6 {
+  font-family:'Inria Serif', serif;
+  font-size: 2vw;
+  color: black;
+}
+
+
+
 body, p{
   font-family: 'Open Sans', sans-serif;
   font-size: 2vw;
@@ -43,6 +51,13 @@ body, html {
   background-position: center;
   background-size: cover;
 
+}
+
+.footer {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin: 15px;
 }
 
 @media screen and (max-width: 600px) {
