@@ -4,7 +4,7 @@
 }
 
 .background {
-  background-image: url('./photorazor.jpg');
+  background-image: url('https://raw.githubusercontent.com/gmstern/website/master/razor/photorazor.jpg');
   background-position: center;
   background-size: 70%;
   height: 1000px;
